@@ -1,0 +1,26 @@
+@tailwind components;
+
+@layer components{
+    .homeContainer{
+        transition: transform 0.5s ease-in-out;
+        @apply h-[100vh] text-white flex items-center justify-center relative
+
+    }
+    .homeWrapper{
+        @apply w-[60%] flex flex-col gap-5 
+    }
+
+    .homeWrapper h1{
+        @apply font-jost uppercase text-[6rem] font-extrabold
+    }
+
+    .homeWrapper h3{
+        @apply uppercase font-poppins text-[3rem]
+    }
+
+    .homeWrapper p{
+        @apply text-sm font-poppins tracking-wide leading-7
+    }
+
+   
+}

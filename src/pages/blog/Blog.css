@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+    .blogContainer{
+        @apply h-[100vh] bg-violet-600
+    }
+}

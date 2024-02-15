@@ -1,0 +1,17 @@
+@tailwind components;
+
+@layer components{
+    .appContainer{
+        @apply relative h-[100vh] 
+    }
+    .layoutContainer{
+
+        @apply absolute top-0 flex w-full h-full
+    }
+
+    .contentContainer{
+        scroll-behavior: auto;
+        scroll-behavior: smooth;
+        @apply w-full border h-[100vh] overflow-y-auto bg-[#03030362]
+    }
+}

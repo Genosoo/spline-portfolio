@@ -1,0 +1,32 @@
+@tailwind components;
+
+@layer components{
+    .sidebarContainer{
+        @apply bg-[#03030348] h-full w-[30%] font-poppins
+    }
+
+    .profilePicWrapper{
+        @apply flex items-center justify-center border-b-2 p-10 mx-20
+    }
+
+    .profilePicWrapper img{
+        @apply rounded-full w-[150px] h-[150px] border-4
+    }
+
+    .linkWrapper{
+        @apply text-white flex items-center justify-center pt-20
+    }
+
+    .linkWrapper ul li a{
+        @apply text-[2rem] font-bold uppercase
+    }
+
+    .linkWrapper ul li{
+        @apply p-3
+    }
+
+    .activeLink{
+        @apply text-[#7450FF] border-b-4 border-[#7450FF]
+    }
+
+}

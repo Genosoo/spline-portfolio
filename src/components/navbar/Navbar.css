@@ -1,0 +1,13 @@
+@tailwind components;
+
+
+
+@layer components{
+    .navbarContainer{
+        @apply bg-[#03030302] z-30  w-full  sticky top-0 p-5 flex items-center justify-end
+    }
+
+    .btnResume{
+        @apply bg-[#5643A4] text-white p-3 font-poppins
+    }
+}
